@@ -10,7 +10,7 @@ if($conn->connect_error){
 }
 else{
     $stmt=$conn->prepare("insert into registration(FirstName,MiddleName,LastName,Email,Password)values(?,?,?,?,?)");
-    $stmt->bind_param("sssss":,$first_name,$last_name,$middle_name,$email,$password);
+    $stmt->bind_param("sssss":,$first_name,$middle_name,$last_name,$email,$password);
     $stmt->execute();
     echo " registration successfull...";
     $stmt->close();
