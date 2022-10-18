@@ -21,7 +21,7 @@ Cancellation of tickets
 
 WORKING:
 Kshetra - Home page with link to other pages
-Shreecharan - Home page
+Shreecharan - Home page and linked to different pages from navbar
 Rachitha - Login page(front-end)
 mothi akhil - Registration PageFront-end
 Sowmya - payment page
