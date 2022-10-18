@@ -57,11 +57,7 @@ span{
     outline:none;
     background: transparent;
    }
-.sel{
-    position: relative;
-    left:70px;
-    bottom:35px;
-}
+
 .butt{
     position: relative;
     background: linear-gradient(to right,#ff105f,#ffad06);
@@ -70,6 +66,7 @@ span{
     left:80px;
     bottom:10px;
     margin:10px;
+    top:10px;
     bottom:30px;
     border-radius: 20px;
 
@@ -78,14 +75,14 @@ span{
     color:rgb(52, 43, 184);
     position:relative;
     left:30px;
-    bottom:25px;
+    bottom:10px;
 
 }
 .checkbox{
     position: relative;
     padding:10px;
-    top:10px;
-    right:70px;
+    top:25px;
+    left:10px;
 }
 .butt:hover{
     cursor:pointer;
