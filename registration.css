@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("th.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.container{
+    height:100%;
+    width:100%;
+    
+}
+.form
+{ 
+    margin:25px 40px;
+    padding:25px;
+    height:60%;
+    width:25%;
+    position: relative;
+    left:30%;
+    top:25%;
+    background-color:white;
+    border-radius: 30px;
+}
+.reg{
+    top:30px;
+    position:absolute;
+    width:150px;
+    transition: .5s;
+}
+span{
+
+    position: relative;
+    padding:2px;
+    margin:2px;
+    left:90px;
+    right:10px;
+    color:rgb(253, 13, 13);
+}
+.input{
+    position:relative;
+    left:10px;
+    top:10px;
+    width:280px;
+    height:75%;
+    margin:5px 0;
+    padding:10px 10px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    box-shadow: inset;
+    outline:none;
+    background: transparent;
+   }
+.sel{
+    position: relative;
+    left:70px;
+    bottom:35px;
+}
+.butt{
+    position: relative;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    height:30px;
+    width:100px;
+    left:80px;
+    bottom:10px;
+    margin:10px;
+    bottom:30px;
+    border-radius: 20px;
+
+}
+#i{
+    color:rgb(52, 43, 184);
+    position:relative;
+    left:30px;
+    bottom:25px;
+
+}
+.checkbox{
+    position: relative;
+    padding:10px;
+    top:10px;
+    right:70px;
+}
+.butt:hover{
+    cursor:pointer;
+    background: #ffc107;
+    color:#000;
+}
