@@ -3,13 +3,18 @@ gender varchar(30),start_date varchar(30),source varchar(30)
 ,destination varchar(30),reg_num int ,Train_Num int);
 insert into passengers (name,age,gender,start_date,source,
 destination,reg_num,Train_Num)
-values ("soumya",18,"female","2021/03/03","rdm","scd",1,17234);
+values ("abc",20,"male","2022/03/03","rdm","scd",3,17235);
+insert into passengers (name,age,gender,start_date,source,
+destination,reg_num,Train_Num)
+values ("soumya",18,"female","2021/03/03","rdm","scd",1,17236);
 
 
 
 create table Train(Train_Num int,source varchar(30),
-destination varchar(30),status varchar(10));
+destination varchar(30),status varchar(30));
 insert into Train (Train_Num,source,destination,status) values 
 (17234,"rdm","scd","available");
+insert into Train (Train_Num,source,destination,status) values 
+(17235,"rdm","scd","unavailable");
 
-select * from Train join passengers on passengers.Train_Num=Train.Train_Num;
+select status from Train join passengers on passengers.Train_Num=Train.Train_Num;
