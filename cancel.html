@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>train booking</title>
+  <style>
+  button {   
+       background-color: #4C;   
+       width: 50%; 
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+  button:hover {   
+        opacity: 0.5;   
+    } 
+   input[type=text], input[type=password] {   
+        width: 50%;   
+        margin: 8px 0;  
+        padding: 10px 15px;   
+        display: inline-block;   
+        border: 1px solid;   
+        box-sizing: border-box;   
+    } 
+    .container {   
+        padding: 25px;   
+    }   </style>
+</head>
+
+<body>
+  <h2 align=center>
+    CANCEL TICKETS
+  </h2>
+   <form>  
+     <div class="container">   
+            <label>REGISTER ID </label>   
+          <input type="text"  name="PNR" required>  </div>
+           
+        <div class="container">   
+            <label>PNR NUMBER  </label>   
+          <input type="text"  name="PNR" required>  </div>
+             <div class="container">   
+            <label>TRAIN NUMBER </label>   
+          <input type="text"  name="TRAIN" required>  </div>
+         <center>   <button type="submit">CANCEL</button>   
+             
+           <button type="submit">RESET</button></center>   
+        </div>   
+    </form>     
+  
+</body>
+
+</html>
